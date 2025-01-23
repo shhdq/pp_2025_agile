@@ -10,4 +10,10 @@
     line-height: 21px;
     border: none;
     width: 12.5rem;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgb(235, 44, 85, 1);
 }

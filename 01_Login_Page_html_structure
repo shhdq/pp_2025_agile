@@ -6,6 +6,8 @@
     <title>Log in to TikTok</title>
 </head>
 <body>
+
+    <!--Uzstaisīju Button form-->
     <div>
         <h1>Log in to TikTok</h1>
         <p>Manage your account, check notifications, comment on videos, and more.</p>
@@ -15,13 +17,20 @@
             <button type="button">Continue with Facebook</button><br><br>
             <button type="button">Continue with Google</button><br><br>
         </form>
+    </div>
+    <!--Service agreement-->
+    <div>
         <p>
             By continuing, you agree to TikTok's <a href="#">Terms of Service</a> 
             and confirm that you have read TikTok's <a href="#">Privacy Policy</a>.
         </p>
+    </div>
+    <!--Sign up-->
+    <div>
         <p>
             Don't have an account? <a href="#">Sign up</a>
         </p>
     </div>
+    
 </body>
 </html>

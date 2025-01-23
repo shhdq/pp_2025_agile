@@ -1,0 +1,24 @@
+.about_navbar {
+    font-family:Arial, Tahoma, sans-serif;
+    color:  rgba(255, 255, 255, 0.5);
+    text-decoration: none !important;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.links_about{
+    text-decoration: none;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: bold;
+}
+.copy_Right {
+    color: rgba(22, 24, 35, 0.5);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+
+}
+p {
+    margin-top: 7px;
+    font-size: 14px;
+}
+

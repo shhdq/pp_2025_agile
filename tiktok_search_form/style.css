@@ -1,0 +1,59 @@
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container h1 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+button {
+    background: none; /* Noņemu fona krāsu */
+    border: none; /* Robežas noņemšana */
+    padding: 0; /* Iekšējo ievilkumu noņemšana */
+    cursor: pointer; /* Virziet kursoru*/
+    margin-left: 190px;
+}
+
+button img {
+    width: 25px;
+    height: 25px;
+}
+
+button:hover img {
+    opacity: 0.7; /* Kursora novietošanas efekts */
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Lai search-form būtu no sākuma */
+    margin-top: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;  /* Palielināts ievades lauka platums */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 400px; /* Palielināts pogas platums, lai tā būtu vienāda garuma */
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}

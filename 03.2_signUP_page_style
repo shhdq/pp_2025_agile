@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    width: 483px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 0px 64px;
+    border-radius: 12px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 86px 36px 30px;
+    color: #161823; 
+    
+}
+
+.signup-card {
+background-color: white;
+text-align: center;
+padding-bottom: 250px;
+}
+
+.service-agreement {
+
+background-color: white;
+text-align: center;
+
+}
+
+.existing-users{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    background-color: white;
+    border-top: 0.5px solid rgba(22, 24, 35, 0.2);
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 335px;
+}
+
+
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 0px 12px;
+    border: rgba(22, 24, 35, 0.2) solid 1px;
+    height: 44px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 12px;
+    width: 350px;
+    top: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(22, 24, 35, 0.2);
+}
+
+
+.social-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-agreement a {
+    color: black;
+    text-decoration: none;
+}
+
+.service-agreement {
+    color: rgba(22, 24, 35, 0.5);
+    padding: 16px 30px;
+}
+
+.footer-text a {
+    color: red;
+    text-decoration: none;
+}
+
+
+
+

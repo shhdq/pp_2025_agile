@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+    flex-direction: column;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 360px;
+    text-align: center; /* Teksts iekš container pārvietots uz centru */ 
+    position: relative;
+}
+
+h1 {
+    font-size: 33px;
+    margin-bottom: 35px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form .qr {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+form .qr:hover {
+    background-color: #f3f3f3;
+}
+
+form .phone {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+form .phone:hover {
+    background-color: #f3f3f3;
+}
+
+form .facebook {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+form .facebook:hover {
+    background-color: #f3f3f3;
+}
+
+form .google {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+form .google:hover {
+    background-color: #f3f3f3;
+}
+
+form .apple {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+form .apple:hover {
+    background-color: #f3f3f3;
+}
+
+.terms {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin: 20px 0; 
+    font-size: 13px; 
+    color: #8a8a8a;
+    margin-top:30px;
+
+}
+
+.divider {
+    width: 26%; 
+    height: 1px; 
+    background-color: #e0e0e0; 
+  }
+
+p {
+    text-align: center;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.signup-link {
+    color: red;
+    text-decoration: none;
+}

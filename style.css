@@ -5,6 +5,7 @@ body {
 }
 .dropdown {
     position: relative;
+    display: inline-block;
 }
 
 .hyperlinks {
@@ -28,10 +29,11 @@ body {
     word-spacing: 3px;
     
     
+    
 
 }
 
-.hyperlinks a, p {
+.hyperlinks a {
     text-decoration: none;
     color: rgba(22, 24, 35, 0.5);
     font-size: 12px;
@@ -40,10 +42,9 @@ body {
     margin-top: 5px;
     line-height: 16px;
     font-weight: 600;
+    pointer-events: all;
     
-  
 
-    
 
 }
  .hyperlinks a:hover {

@@ -1,74 +1,25 @@
-
-
-body {
-    background-color: rgba(22, 24, 35, 0.06);
-}
-.dropdown {
-    position: relative;
-}
-
-.hyperlinks {
-    display: inline-block;
-    width: 195px;
-    position:absolute;
-    border-radius: 4px;
-    transition: opacity 0,2s ease;
-    left: 0px;
-    top: calc(100% + 1px);
-    padding: 8px;
-    pointer-events: none;
-    opacity: 0;
-    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    margin-right: 6px;
-    margin-top: 5px;
-    line-height: 16px;
-    background-color: rgba(22, 24, 35, 0.06);
-    word-spacing: 3px;
-    
-    
-
-}
-
-.hyperlinks a, p {
-    text-decoration: none;
-    color: rgba(22, 24, 35, 0.5);
-    font-size: 12px;
-    margin-left: 0px;
-    margin-right: 6px;
-    margin-top: 5px;
-    line-height: 16px;
-    font-weight: 600;
-    
-  
-
-    
-
-}
- .hyperlinks a:hover {
-    text-decoration: underline;
-
- }
-
-
-
-.dropdown button {
+.dropdown h4 {
     font-size: 15px;
-    font-weight: 700;
-    background-color: rgba(22, 24, 35, 0.06);
-    border: none;
-    cursor: pointer;
-    color: rgba(22, 24, 35);
     line-height: 22px;
-    margin-top: 5px;
-    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    margin-top: 0px;
+    cursor: pointer;
+    color: rgb(22, 24, 35);
+    font-weight: 700;
 }
 
+.dropdown a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(22, 24, 35, 0.5);
+    font-size: 12px;
+    margin-top: 0px;
+}
 
-.dropdown button:focus + .hyperlinks {
-    opacity: 1;
-    pointer-events: auto;
+.dropdown .content {
+    width: 200px;
+    display: none;
+}
 
-
+.dropdown:hover .content{
+    display: inline-block;
 }

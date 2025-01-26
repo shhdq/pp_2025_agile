@@ -19,6 +19,7 @@ body {
     display: flex;
     overflow-x: auto;
     gap: 8px;
+    white-space: nowrap;
   }
   
   .explore-nav  {

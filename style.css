@@ -1,6 +1,36 @@
 
 
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.hyperlinks {
+    display: inline-block;
+    width: 195px;
+    position:absolute;
+    border-radius: 4px;
+    transition: opacity 0,2s ease;
+    left: 0px;
+    top: calc(100% + 1px);
+    padding: 8px;
+    pointer-events: none;
+    opacity: 0;
+    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 6px;
+    margin-top: 5px;
+    line-height: 16px;
+    background-color: rgba(22, 24, 35, 0.06);
+    word-spacing: 3px;
+    
+    
+    
+
+
+
 .login {
   color: white;
   background-color: rgb(254, 44, 85, 1);
@@ -81,3 +111,6 @@ p {
   color: #555;
   flex: 1;
 }
+
+
+

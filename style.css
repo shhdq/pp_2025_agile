@@ -1,1 +1,26 @@
+.menu-buttons {
+    margin: 7px;
+    margin-left:20px;
+    margin-top: 1px;
+    padding: 10px;
+    width: 150px;
+}
+button {
+    all: unset; /* Сбрасывает все стили кнопки по умолчанию */
+    cursor: pointer; /* Добавляем указатель мыши, если это нужно */
+  }
+.for-you-nav-bar{
+    font-size: 18px;
+    font-family: Arial, Tahoma, PingFangSC, sans-serif;
 
+}
+.for-you{
+    color: #ff5252;
+}
+
+.menu-buttons:hover{
+    background: rgba(128, 128, 128, 0.164);
+}
+.button {
+    width: auto;
+}

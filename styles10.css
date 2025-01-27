@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background: #f5f5f5;
+}
+
+.sidebar {
+    width: 80px;
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .logo img {
+    margin: 20px 0;
+    width: 40px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu li a .icon {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.more-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    background: #fff;
+    height: 100vh;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 10;
+    transition: right 0.3s ease-in-out;
+}
+
+.more-menu:target {
+    right: 0;
+}
+
+.more-menu h2 {
+    margin-top: 0;
+}
+
+.more-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.more-menu ul li {
+    margin: 15px 0;
+}
+
+.more-menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.close-btn {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    text-align: right;
+    cursor: pointer;
+}

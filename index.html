@@ -3,11 +3,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <link rel="stylesheet" href="style.css">
+    <title>TikTok UI Recreation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .video-section {
+            width: 400px;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ddd;
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .video-section img {
+            width: auto;
+            height: auto;
+        }
+
+        .info-section {
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            color: white;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+        }
+
+        .profile-info {
+            margin-bottom: 8px;
+        }
+
+        .profile-info p {
+            font-size: 14px;
+        }
+
+        .profile-info .username {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .profile-info .hashtags {
+            color: #ccc;
+        }
+
+        .interactions {
+            align-self: flex-end;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            width: 80px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            color: #333;
+            position: relative;
+            cursor: pointer;
+        }
+
+        
+        a {
+            text-decoration: none;
+        }
+
+        
+        .icon span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 4px;
+            position: relative;
+        }
+
+        #like:hover span i {
+            color: red;
+        }
+
+        #comment:hover span i {
+            color: gray;
+        }
+
+        #bookmark:hover span i {
+            color: gold;
+        }
+
+        #share:hover span i {
+            color: blue;
+        }
+        .link {
+            color: white;
+        }
+
+        .icon p {
+            font-size: 14px;
+        }
+
+        .icon i {
+            color: #232323;
+        }
+
+        .icon .plus {
+            position: absolute;
+            top: 28px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff4757;
+            color: white;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon-circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .icon-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="video-section">
+            <img src="video.jpg" alt="TikTok Video">
+            <div class="info-section">
+                <div class="profile-info">
+                    <p class="username">miloov73 · 2024-12-21</p>
+                    <p class="hashtags">small#Моя</p>
+                </div>
+                <a href="#original" class="link"><p>See original</p></a>
+            </div>
+        </div>
 
+        <div class="interactions">
+            <a href="#profile" class="icon">
+                <span class="icon-circle">
+                    <img src="profile.jpg" alt="Profile Image">
+                </span>
+                <div class="plus">+</div>
+            </a>
+            <a href="#like" class="icon" id="like">
+                <span><i class="fa-solid fa-heart"></i></span>
+                <p>2.3M</p>
+            </a>
+            
+            <a href="#comment" class="icon" id="comment">
+                <span><i class="fa-solid fa-comment"></i></span>
+                <p>10.8K</p>
+            </a>
+            
+            <a href="#bookmark" class="icon" id="bookmark">
+                <span><i class="fa-solid fa-bookmark"></i></span>
+                <p>217.6K</p>
+            </a>
+            
+            <a href="#share" class="icon" id="share">
+                <span><i class="fa-solid fa-share"></i></span>
+                <p>483.6K</p>
+            </a>
+        </div>
+    </div>
 </body>
 </html>

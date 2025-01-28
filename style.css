@@ -15,15 +15,20 @@ a {
     font-size: 12px;
     position: relative;
     left: 6px;
+    opacity: 0;
     
 }
 
-button:hover a {
+.dropdown:hover a {
     color: grey;
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
 }
 
 .hyperlinks {
+    width: 150px;
+}
+
+.dropdown {
     width: 150px;
 }

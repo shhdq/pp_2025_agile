@@ -1,38 +1,4 @@
-<<<<<<< HEAD
-
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.hyperlinks {
-    display: inline-block;
-    width: 195px;
-    position:absolute;
-    border-radius: 4px;
-    transition: opacity 0,2s ease;
-    left: 0px;
-    top: calc(100% + 1px);
-    padding: 8px;
-    pointer-events: none;
-    opacity: 0;
-    font-family: TikTokFont, Arial, Tahoma, PingFangSC, sans-serif;
-    font-weight: 600;
-    font-size: 12px;
-    margin-right: 6px;
-    margin-top: 5px;
-    line-height: 16px;
-    background-color: rgba(22, 24, 35, 0.06);
-    word-spacing: 3px;
-}  
-    
-    
-
-
-
-.login {
+   .login {
   color: white;
   background-color: rgb(254, 44, 85, 1);
   height: 40px;
@@ -70,6 +36,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 150px;
 }
 .copy_Right {
     color:  rgba(22, 24, 35, 0.5);
@@ -113,9 +80,6 @@ p {
   flex: 1;
 }
 
-
-
-=======
 .dropdown h4 {
     font-size: 15px;
     line-height: 22px;
@@ -134,11 +98,9 @@ p {
 }
 
 .dropdown .content {
-    width: 150px;
     display: none;
 }
 
 .dropdown:hover .content{
     display: inline-block;
 }
->>>>>>> origin/Company_dropdown_EJ

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -114,3 +115,30 @@ p {
 
 
 
+=======
+.dropdown h4 {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 0px;
+    cursor: pointer;
+    color: rgb(22, 24, 35);
+    font-weight: 700;
+}
+
+.dropdown a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(22, 24, 35, 0.5);
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.dropdown .content {
+    width: 150px;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display: inline-block;
+}
+>>>>>>> origin/Company_dropdown_EJ
